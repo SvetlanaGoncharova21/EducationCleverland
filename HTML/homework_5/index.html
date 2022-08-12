@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        font-size: 50px;
+        color: #6e76f1;
+      }
+
+      div {
+        margin: 0 auto;
+      }
+
+      .form-container {
+        width: 400px;
+        padding: 20px;
+      }
+      select {
+        width: 200px;
+      }
+    </style>
+    <title>Формы.Элементы форм</title>
+  </head>
+  <body>
+    <h1 align="center"><font color="blue">Cleverland</font></h1>
+    <h2 align="center">Формы. Элементы форм</h2>
+    <div class="form-container">
+      <form>
+        <fieldset>
+          <legend>Данные пользователя</legend>
+          <p>Логин: <input name="login" placeholder="login" /></p>
+          <p>
+            Пароль: <input type="password" name="pass" placeholder="password" />
+          </p>
+          <p><input type="submit" value="Вход" /></p>
+        </fieldset>
+      </form>
+    </div>
+    <div class="form-container">
+      <form>
+        <fieldset>
+          <legend>Пожелания</legend>
+          <select>
+            <option>Орша</option>
+            <option>Могилев</option>
+            <option>Витебск</option>
+          </select>
+          <p>
+            <select name="select" size="4" multiple>
+              <option selected value="s1">Машина</option>
+              <option value="s2">Свой дом</option>
+              <option value="s3">Квартира</option>
+              <option value="s4">Сад</option>
+            </select>
+          </p>
+          <p>Просите что хотите <input type="text" size="20" /></p>
+          <input type="checkbox" /><label>Текст</label>
+          <p>
+            <textarea
+              rows="10"
+              cols="45"
+              name="text"
+              placeholder="Много текста"
+            ></textarea>
+          </p>
+          <p><input type="submit" value="Отправить" /></p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
