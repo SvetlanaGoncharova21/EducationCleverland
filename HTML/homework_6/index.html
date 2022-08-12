@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        font-size: 50px;
+        color: #6e76f1;
+      }
+
+      div {
+        margin: 0 auto;
+      }
+
+      .form-container {
+        width: 500px;
+        padding: 20px;
+      }
+      select {
+        width: 200px;
+      }
+    </style>
+    <title>Домашка 6</title>
+  </head>
+  <body>
+    <p align="center"><b>Работа с формами</b></p>
+    <p align="center"><b>Задание 1.</b></p>
+    <div class="form-container">
+      <form>
+        <fieldset>
+          <legend>Регистрационная форма пользователей</legend>
+          <p>Имя: <input type="text" size="20" /></p>
+          <form>
+            <p>Укажите возраст <input list="age" /></p>
+            <datalist id="age">
+              <option>10-15 лет</option>
+              <option>15-20 лет</option>
+              <option>30-20 лет</option>
+              <option>30-40 лет</option>
+              <option>Старше 40 лет</option>
+            </datalist>
+          </form>
+          <p>
+            Укажите пол: мужской <input type="radio" name="radio" /> женский
+            <input type="radio" name="radio" />
+          </p>
+          <p>
+            Страна проживания:
+            <select>
+              <option>Беларусь</option>
+              <option>Российская Федерация</option>
+              <option>Другое государство</option>
+            </select>
+          </p>
+          <p>
+            Владение языками: русский<input type="checkbox" /> белорусский<input
+              type="checkbox"
+            />
+            английский<input type="checkbox" />
+          </p>
+          <p>Фото профиля: <input type="file" name="" /></p>
+          <p>Введите логин: <input maxlength="25" size="20" name="login" /></p>
+          <p>
+            Введите пароль:
+            <input type="password" maxlength="25" size="20" name="password" />
+          </p>
+          <p>
+            Повторите пароль:
+            <input type="password" maxlength="25" size="20" name="password" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <p align="center">
+      <input type="reset" value="Сброс" />
+      <input type="submit" value="Отправить" />
+    </p>
+  </body>
+</html>
