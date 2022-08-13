@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашка 6.2</title>
+  </head>
+  <body>
+    <p><b>Запись на курсы</b></p>
+    <hr />
+    <form>
+      <p>
+        Имя:<br />
+        <input maxlength="25" size="40" value="Алексей" />
+      </p>
+    </form>
+    <form action="handler.php">
+      <p>Язык программирования:</p>
+      <p><input name="PHP" type="radio" value="C++" /> C++</p>
+      <p><input name="PHP" type="radio" value="PHP" /> PHP</p>
+      <p><input name="PHP" type="radio" value="Python" checked /> Python</p>
+    </form>
+    <form>
+      <p>
+        Дополнительная информация:<br />
+        <textarea
+          rows="5"
+          cols="40"
+          name="text"
+          placeholder="Есть опыт програмированния на С++"
+        ></textarea>
+      </p>
+    </form>
+    <p>Секретное слово: <br /><input type="password" name="pass" /></p>
+    <p>
+      <input type="submit" value="Отправить" />
+      <input type="reset" value="Очистить" />
+    </p>
+  </body>
+</html>
