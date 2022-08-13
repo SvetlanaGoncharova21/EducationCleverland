@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашка 6.3</title>
+  </head>
+  <body>
+    <div class="form-container" style="width: 500px">
+      <form>
+        <fieldset>
+          <legend><font size="5">Параметры автомобиля</font></legend>
+          <p>Марка автомобиля: <input type="text" size="20" /></p>
+          <p>Объем двигателя, см<sup>3</sup> <input type="number" /></p>
+          <p>
+            Область:
+            <select name="region">
+              <option value="s1" selected>Брестская</option>
+              <option value="s2">Витебская</option>
+              <option value="s3">Гомельская</option>
+              <option value="s4">Могилевская</option>
+              <option value="s5">Минская</option>
+              <option value="s6">Гродненская</option>
+            </select>
+          </p>
+          <p>Тип КПП</p>
+          <p><input name="a" type="radio" value="Автомат" />Автомат</p>
+          <p><input name="a" type="radio" value="Механика" />Механика</p>
+          <p>Двигатель</p>
+          <p><input type="checkbox" name="a" value="Электро" />Электро</p>
+          <p><input type="checkbox" name="a" value="Дизель" />Дизель</p>
+          <p><input type="checkbox" name="a" value="Бензин" />Бензин</p>
+          <p>
+            <input type="checkbox" name="a" value="Пропан-бутан" />Пропан-бутан
+          </p>
+          <p><input type="checkbox" name="a" value="Метан" />Метан</p>
+          <form>
+            <p>
+              Описание<br />
+              <textarea rows="5" cols="40" name="text"></textarea>
+            </p>
+          </form>
+          <p>
+            <input type="submit" value="Отправить" />
+            <input type="reset" value="Очистить" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
