@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="form-container" style="width: 500px">
-      <form>
+      <form action="handler.php" method="post">
         <fieldset>
           <legend><font size="5">Параметры автомобиля</font></legend>
           <p>Марка автомобиля: <input type="text" size="20" /></p>
@@ -35,17 +35,14 @@
             <input type="checkbox" name="a" value="Пропан-бутан" />Пропан-бутан
           </p>
           <p><input type="checkbox" name="a" value="Метан" />Метан</p>
-          <form>
-            <p>
-              Описание<br />
-              <textarea rows="5" cols="40" name="text"></textarea>
+          <p>Описание</p>
+          <textarea rows="5" cols="40" name="text"></textarea>
             </p>
-          </form>
-          <p>
-            <input type="submit" value="Отправить" />
-            <input type="reset" value="Очистить" />
-          </p>
-        </fieldset>
+          </fieldset>
+            <p>
+              <button type="reset">Очистить</button>
+          <button type="submit">Отправить</button>
+            </p>
       </form>
     </div>
   </body>

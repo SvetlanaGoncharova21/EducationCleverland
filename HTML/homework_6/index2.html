@@ -9,19 +9,15 @@
   <body>
     <p><b>Запись на курсы</b></p>
     <hr />
-    <form>
+    <form action="handler.php" method="post">
       <p>
         Имя:<br />
         <input maxlength="25" size="40" value="Алексей" />
       </p>
-    </form>
-    <form action="handler.php">
       <p>Язык программирования:</p>
       <p><input name="PHP" type="radio" value="C++" /> C++</p>
       <p><input name="PHP" type="radio" value="PHP" /> PHP</p>
       <p><input name="PHP" type="radio" value="Python" checked /> Python</p>
-    </form>
-    <form>
       <p>
         Дополнительная информация:<br />
         <textarea
@@ -31,11 +27,11 @@
           placeholder="Есть опыт програмированния на С++"
         ></textarea>
       </p>
+      <p>Секретное слово: <br /><input type="password" name="pass" /></p>
+      <p>
+        <button type="reset">Очистить</button>
+        <button type="submit">Отправить</button>
+      </p>
     </form>
-    <p>Секретное слово: <br /><input type="password" name="pass" /></p>
-    <p>
-      <input type="submit" value="Отправить" />
-      <input type="reset" value="Очистить" />
-    </p>
   </body>
 </html>

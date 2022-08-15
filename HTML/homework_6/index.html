@@ -10,7 +10,7 @@
     <p><b>Работа с формами</b></p>
     <p><b>Задание 1.</b></p>
     <div class="form-container" style="width: 500px">
-      <form>
+      <form action="handler.php" method="post">
         <fieldset>
           <legend>Регистрационная форма пользователей</legend>
           <p>Имя: <input type="text" size="20" /></p>
@@ -56,11 +56,11 @@
             <input type="password" maxlength="25" size="20" name="password" />
           </p>
         </fieldset>
+        <p>
+          <button type="reset">Очистить</button>
+          <button type="submit">Отправить</button>
+        </p>
       </form>
     </div>
-    <p>
-      <input type="reset" value="Сброс" />
-      <input type="submit" value="Отправить" />
-    </p>
   </body>
 </html>
