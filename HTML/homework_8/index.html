@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашка 8</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif; /* Рубленый шрифт */
+      }
+      .letter {
+        color: red; /* Красный цвет символов */
+        font-size: 200%; /* Размер шрифта в процентах */
+        font-family: serif; /* Шрифт с засечками */
+        position: relative; /* Относительное позиционирование */
+        top: 5px; /* Сдвиг сверху */
+      }
+      .box {
+        background-color: #567895;
+      }
+      h2 {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <script>
+      function sizePic() {
+        size = document.getElementById("size").value;
+        img = document.getElementById("pic");
+        img.width = 60 + 20 * size;
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <p><em>Стивен Кинг</em></p>
+      <p>
+        <q
+          >Я знаю, что считать, что что-то под моей кроватью, может <br />
+          схватить меня за лодыжку - это иллюзия, однако и я также<br />
+          знаю, что если я буду держать ногу под одеялом, ничто не <br />
+          сможет схватить меня за лодыжку.</q
+        >
+        <p><a href="https://ru.citaty.net/" target="_blank"><cite>https://ru.citaty.net/tsitaty/1980730-stiven-king-ia-znaiu-chto-schitat-chto-chto-to-pod-moei-krovatiu/</cite></a></p>
+      </p>
+    </div>
+    <div class="form-container" style="width: 800px">
+        <form>
+          <fieldset>
+            <h3 align="center">Запоминаем основные цвета радуги!!!</h3>
+            <p><font color="red">Каждый </font><font color="orange">охотник </font><font color="yellow">желает </font><font color="green">знать, </font><font color="DeepSkyBlue">где </font><font color="DarkBlue">сидит </font><font color="violet">фазан</font> — мнемоническая фраза, <br />
+                 используемая для запоминания основных цветов видимого спектра <br /> 
+                 светового излучения (основные цвета радуги). Является так называемым <strong>акростихом.</strong></p>
+            <p>В этой фразе начальная буква каждого слова соответствует начальной букве названия определённого цвета.</p>
+            <img src="fazann.jpg" alt="Фазан">  
+          </fieldset>
+        </form>
+    </div>
+    <div>
+        <p><strong>Лучшие фильмы, которые я посмотрела и могу посоветовать по жанрам:</strong></p>
+        <ol>
+            <li><strong>Боевик</strong>
+                <ol>
+                    <li>Мстители: Война бесконечности</li>
+                    <li>Пятый элемент</li>
+                    <li>Бойцовский клуб</li>
+                </ol>
+            </li>
+            <li><strong>Фантастика</strong>
+                <ul>
+                    <li>Человек-паук: нет пути домой</li>
+                    <li>Аватар</li>
+                    <li>Веном</li>
+                </ul>
+            </li>
+            <li><strong>Комедия</strong>
+                <ol type="a">
+                    <li>Достать ножи</li>
+                    <li>Пираты Карибского моря: Сундук мертвеца</li>
+                    <li>РЭД</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <div class="form-container" style="width: 800px">
+        <form name="anketa" action="handler.php" method="post">
+            <fieldset>
+                <form action="">
+                    <h2>Тест по Гарри Поттеру: Какую оценку ты получишь по Защите от Темных Искусств?</h2>
+                    <p><b>Какое заклинание поможет разоружить противника?</b></p>
+                    <p><b>Какое заклинание поможет разоружить противника?</b></p>
+                    <p><input name="potter" type="radio" value="vaddivazi">Ваддивази</p>
+                    <p><input name="potter" type="radio" value="ekspelliarmus">Экспеллиармус</p>
+                    <p><input name="potter" type="radio" value="araniaekzemi">Араниаэкзэми</p>
+                </form>
+                <form action="">
+                    <p><b>Сколько существует непростительных заклятий?</b></p>
+                    <p><input name="potter" type="radio" value="3">3</p>
+                    <p><input name="potter" type="radio" value="2">2</p>
+                    <p><input name="potter" type="radio" value="5">5</p>
+                </form>
+                <form action="">
+                    <p><b>Как отличить оборотня от анимага?</b></p>
+                    <p><input name="potter" type="radio" value="povremeni">по времени обращения</p>
+                    <p><input name="potter" type="radio" value="poprikusu">по прикусу</p>
+                    <p><input name="potter" type="radio" value="popoxodke">по походке</p>
+                    <p><input type="submit" value="Отправить"></p>
+                </form>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h1><font face="Luminari, fantasy">Близорукость, миопия</font></h1>
+        <p><span class="letter">Б</span>лизорукость, или миопия – самая распространенная причина низкого зрения у человека в наши дни. <br /> 
+        Обычно она не приводит к полной слепоте, но способна значительно затруднять повседневную деятельность. <br />
+        Необходимость использовать очки или контактные линзы, чтобы «хоть что-нибудь увидеть» вряд ли порадует кого бы то ни было.</p>
+        <p><span style="color: green;">К сожалению, найти причину развития миопии в настоящее время не удалось никому в мире.<br />
+        Вероятно, что проблема кроется не в каком-то одном факторе, а вбирает в себя множество различных, <br />
+        на первый взгляд даже не связанных с собой. Так, считается, <br />
+        что повышенные зрительные нагрузки, проведение малого количества времени на открытом воздухе,<br />
+        наличие близорукости у родителей могут способствовать появлению таковой у детей.</span></p>
+    </div>
+    <div class="form-container" style="width: 800px">
+        <form>
+            <fieldset>
+                <p>Размер рисунка: <input type="range" min="1" max="10" id="size" oninput="sizePic()" value="3"></p>
+                <p><img src="fd.png" alt="" id="pic"></p>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h3>Мини-Анкета</h3>
+        <form autocomplete="off">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>ФИО</td>
+                        <td><input type="text" size="30" name="surname"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="sex" value="1"> Мужской <br />
+                            <input type="radio" name="sex" value="2"> Женский
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Дата рождения</td>
+                        <td><input type="date" name="date_of_birth"></td>
+                    </tr>
+                    <tr>
+                        <td>Номер контактного телефона</td>
+                        <td>+375<input type="tel" pattern="[0-9]{5}-[0-9]{2}-[0-9]{2}" name="phone_number"></td>
+                    </tr>
+                    <tr>
+                        <td>Немного информации о себе:</td>
+                        <td><textarea rows="5" cols="40" name="text" placeholder="Любимое хобби и т.д."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="1">
+                           <input type="reset" value="Очистить форму">
+                           <input type="button" value="Отправить данные"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div class="form-container" style="width: 800px">
+        <form>
+            <fieldset>
+                <p><b>Список покупок к 1 сентября:</b></p>
+                <p><input type="checkbox" name="a" value="краски"> Краски</p>
+                <p><input type="checkbox" name="a" value="фломастеры" checked> Фломастеры</p>
+                <p><input type="checkbox" name="a" value="цветные карандаши" checked> Цветные карандаши</p>
+                <p><input type="checkbox" name="a" value="ластик"> Ластик</p>
+                <p><input type="checkbox" name="a" value="альбом" checked> Альбом для рисования</p>
+                <p><input type="button" value="Сохранить"></p>
+            </fieldset>
+        </form>
+    </div> 
+    <div class="box" style="width: 800px">
+        <form>
+            <fieldset>
+                <h2>Как научиться фронтенд-разработке, найти первую работу и не набить шишек</h2>
+                <p>Фронтенд, возможное, лучшее и самое приветливое направление, чтобы войти в ИТ. Но с ним <br />
+                не все так просто — во фронтенде легко начать и трудно стать мастером. В нем не будет мук <br />
+                выбора языка программирования, но будет борьба с его недостатками. В этой сфере есть очень<br />
+                много инструментов, изучение каждого из которых тянет на освоение отдельной профессии.</p>
+                <p>Фронтенд, возможное, лучшее и самое приветливое направление, чтобы войти в ИТ. Но с ним <br />
+                не все так просто — во фронтенде легко начать и трудно стать мастером. В нем не будет мук <br />
+                выбора языка программирования, но будет борьба с его недостатками. В этой сфере есть очень <br />
+                много инструментов, изучение каждого из которых тянет на освоение отдельной профессии.</p>
+                <a href="https://habr.com/ru/company/habr_career/blog/486982/" target="_blank">Читать дальше...</a>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <p><b><font color="red">Сокращения и полезные фразы для интернет-переписки в англиском языке:</font></b></p>
+        <p><abbr title="someone">Some1</abbr>— кто-то</p>
+        <p><abbr title="for you">4u</abbr> — для тебя</p> 
+        <p><abbr title="As soon as possible">ASAP</abbr> — «Как можно быстрее» или «Чем скорее, тем лучше»</p> 
+        <p><abbr title="Thanks">THX</abbr> — спасибо</p>
+        <p><abbr title="Laughing out loud">LOL</abbr> — «Смеюсь в голос» или «Громко хохочу»</p>
+    </div>     
+  </body>
+</html>
+
