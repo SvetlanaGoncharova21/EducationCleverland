@@ -1,0 +1,31 @@
+.boxshadow {
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  font-family: "bookman old style";
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 30px;
+  background: linear-gradient(to right, #fff, #eee, #fff);
+}
+.boxshadow::before,
+.boxshadow::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 92%;
+  height: 67%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  transform: rotate(5deg);
+}
+.boxshadow::after {
+  transform: rotate(-5deg);
+}
