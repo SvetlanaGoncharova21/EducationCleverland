@@ -1,0 +1,19 @@
+.table tbody {
+  width: 120px;
+  border-radius: 5px 5px 5px 5px;
+}
+.table td {
+  padding: 15px;
+}
+.table_1 {
+  caption-side: top;
+  border-collapse: collapse;
+  background: linear-gradient(to top, #8af004, #6ab623);
+}
+.table_2 {
+  caption-side: bottom;
+  border-collapse: separate;
+  border-spacing: 5px;
+  empty-cells: hide;
+  background: linear-gradient(45deg, #8af004, #6ab623);
+}
