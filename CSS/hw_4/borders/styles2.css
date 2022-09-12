@@ -1,8 +1,10 @@
 .div {
-  width: 300px;
+  width: 250px;
   background-color: #98fb98;
   border: solid #32cd32;
   position: relative;
+  border-radius: 10px;
+  padding: 10px;
 }
 .div::before {
   position: absolute;
