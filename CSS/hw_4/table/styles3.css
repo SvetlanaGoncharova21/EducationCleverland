@@ -1,0 +1,28 @@
+table {
+  empty-cells: hide;
+  font-family: "Arial";
+  border-spacing: 5px;
+}
+
+th {
+  border-radius: 5px;
+  width: 120px;
+  padding: 15px;
+  background: linear-gradient(to top, #87eb06, #6dbb21);
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+}
+
+td {
+  border-radius: 5px;
+  width: 120px;
+  padding: 15px;
+  background-color: rgba(128, 255, 0, 0.425);
+  text-align: center;
+  font-size: larger;
+}
+
+th:first-of-type {
+  background: linear-gradient(45deg, #8af004, #6dbb21);
+}
