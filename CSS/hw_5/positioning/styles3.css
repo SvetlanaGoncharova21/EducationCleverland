@@ -1,0 +1,12 @@
+div {
+  display: inline-block;
+  background-color: #dbf8db;
+}
+.div2 {
+  line-height: 0.2em;
+  padding-left: 10px;
+}
+.div3 {
+  padding-left: 70px;
+  padding-right: 10px;
+}
