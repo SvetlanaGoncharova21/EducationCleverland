@@ -1,12 +1,15 @@
 div {
   display: inline-block;
   background-color: #dbf8db;
+  position: relative;
 }
 .div2 {
   line-height: 0.2em;
   padding-left: 10px;
+  padding-right: 30px;
 }
 .div3 {
-  padding-left: 70px;
-  padding-right: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
 }
