@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прогноз погоды</title>
+    <style>
+      body {
+        width: 450px;
+        margin: 0 auto;
+      }
+      div {
+        float: left;
+        box-sizing: border-box;
+        margin: 50px 4px;
+      }
+      .date {
+        background-color: rgb(30, 144, 255);
+        color: white;
+        text-align: center;
+        font-size: 26px;
+      }
+      .degrees {
+        text-align: center;
+        font-size: 30px;
+      }
+      div:hover {
+        box-shadow: 0 0 15px #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="date">31.08</p>
+      <img src="weather-sun.jpg" alt="weather-sun" />
+      <p class="degrees">+20&deg;</p>
+    </div>
+    <div>
+      <p class="date">01.09</p>
+      <img src="weather-snow.jpg" alt="weather-snow" />
+      <p class="degrees">-3&deg;</p>
+    </div>
+    <div>
+      <p class="date">02.09</p>
+      <img src="weather-blizzard.jpg" alt="weather-blizzard" />
+      <p class="degrees">-10&deg;</p>
+    </div>
+  </body>
+</html>
