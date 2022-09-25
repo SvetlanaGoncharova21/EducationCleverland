@@ -68,6 +68,7 @@ h2 {
   font-weight: 300;
   font-size: 21px;
   line-height: 28px;
+  text-align: center;
   color: #ffffff;
   margin-top: 22px;
 }
@@ -134,4 +135,92 @@ h2 {
   top: 282px;
   background: #ffffff;
   margin: 10px -280px;
+}
+
+.promo2 {
+  height: 600px;
+  padding: 38px 0 60px 0;
+}
+
+.title2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.line {
+  width: 220px;
+  height: 7px;
+  background: #f9bf3b;
+  display: block;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+.title3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 18px;
+}
+
+.all_waiting {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.waiting1 .waiting_img {
+  width: 342px;
+  height: 201px;
+}
+
+.waiting1 .wait_text1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+  margin-top: 26px;
+}
+
+.waiting2 .waiting_img2 {
+  width: 342px;
+  height: 201px;
+}
+
+.waiting2 .wait_text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+  margin-top: 26px;
+}
+
+.waiting3 .waiting_img3 {
+  width: 342px;
+  height: 201px;
+}
+
+.waiting3 .wait_text3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+  margin-top: 26px;
 }
