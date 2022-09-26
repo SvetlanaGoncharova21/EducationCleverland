@@ -117,24 +117,22 @@ h2 {
 
 .title_big::before {
   content: "";
-  position: absolute;
+  display: inline-block;
   width: 292px;
   height: 2px;
-  left: 392px;
-  top: 282px;
   background: #ffffff;
-  margin: 10px -280px;
+  margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 .title_big::after {
   content: "";
-  position: absolute;
+  display: inline-block;
   width: 260px;
   height: 2px;
-  left: 1239px;
-  top: 282px;
   background: #ffffff;
-  margin: 10px -280px;
+  margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .promo2 {
