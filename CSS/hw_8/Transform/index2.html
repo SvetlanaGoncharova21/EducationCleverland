@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform 2</title>
+  </head>
+  <style>
+    .example,
+    .example2,
+    .example3,
+    .example4,
+    .example5,
+    .example6 {
+      margin: 0 auto;
+      margin-top: 40px;
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+      background-color: white;
+    }
+    .example:hover {
+      transform-origin: bottom right;
+      transform: rotate(45deg);
+    }
+    .example2:hover {
+      transform-origin: bottom left;
+      transform: rotate(40deg);
+    }
+    .example3:hover {
+      transform: rotate(-45deg);
+    }
+    .example4:hover {
+      transform: translate(50px, 50px) scale(1.1) rotate(45deg);
+    }
+    .example5:hover {
+      transform-origin: right top;
+      transform: scale(2);
+    }
+    .example6:hover {
+      transform-origin: bottom;
+      transform: skewX(45deg);
+    }
+  </style>
+  <body>
+    <div class="example"></div>
+    <div class="example2"></div>
+    <div class="example3"></div>
+    <div class="example4"></div>
+    <div class="example5"></div>
+    <div class="example6"></div>
+  </body>
+</html>
