@@ -10,7 +10,9 @@
 }
 
 .header_info {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
 }
 .header_info .address {
   font-family: "Montserrat";
@@ -19,7 +21,6 @@
   font-size: 13px;
   line-height: 150%;
   color: #ffffff;
-  margin-top: 30px;
 }
 
 .header_info .phone {
@@ -28,10 +29,7 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 150%;
-  text-align: right;
   color: #ffffff;
-  margin-top: 30px;
-  margin-left: 750px;
 }
 
 .header_nav .menu {
@@ -41,28 +39,6 @@
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   margin-top: 20px;
-}
-
-.header_nav .menu .table .table_text1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 150%;
-  text-align: center;
-  color: #ffffff;
-  border-left: none;
-}
-
-.header_nav .menu .table .table_text4 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 150%;
-  text-align: center;
-  color: #ffffff;
-  border-right: none;
 }
 
 .header_nav .menu .table .table_text {
@@ -76,18 +52,25 @@
   border: 1px solid #ffffff;
 }
 
+.header_nav .menu .table .table_text1 {
+  border-left: none;
+}
+
+.header_nav .menu .table .table_text4 {
+  border-right: none;
+}
+
 .buttons {
   display: flex;
   justify-content: center;
   margin-top: 583px;
-  margin-bottom: 150px;
+  column-gap: 30px;
 }
 
 .buttons .button1,
 .buttons .button2 {
   width: 203px;
   height: 50px;
-  margin: 0px 30px;
   background: #99862a;
   font-family: "Montserrat";
   font-style: normal;

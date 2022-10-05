@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation4</title>
+  </head>
+  <style>
+    body {
+      padding: 20px;
+    }
+    .example {
+      position: relative;
+      border: 1px solid red;
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-name: myAnimation;
+    }
+    @keyframes myAnimation {
+      0% {
+        left: 0px;
+        top: 0px;
+      }
+      25% {
+        left: 600px;
+        top: 0px;
+      }
+      50% {
+        left: 600px;
+        top: 300px;
+      }
+      75% {
+        left: 0px;
+        top: 300px;
+      }
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+    }
+  </style>
+  <body>
+    <div class="example"></div>
+  </body>
+</html>
