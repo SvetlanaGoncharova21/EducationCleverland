@@ -33,7 +33,7 @@
 }
 
 .header_nav .menu {
-  width: 1060px;
+  width: 100%;
   height: 47px;
   border-collapse: collapse;
   border-top: 1px solid #ffffff;
@@ -83,4 +83,51 @@
   color: #ffffff;
   cursor: pointer;
   border: none;
+}
+
+.text {
+  height: 856px;
+  background: #282828;
+  padding: 100px 0;
+}
+
+.border {
+  width: 1110px;
+  height: 656px;
+  border: 3px solid #c4c4c4;
+}
+
+.border h2 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+.border .line {
+  width: 160px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.border .border_big_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.border img {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
 }
