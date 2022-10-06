@@ -28,3 +28,14 @@
   font-weight: 36px;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.eot");
+  src: url("../fonts/PlayfairDisplay-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: 18px;
+  font-style: normal;
+}

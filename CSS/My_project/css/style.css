@@ -131,3 +131,119 @@
   margin-top: 50px;
   display: block;
 }
+
+.collection {
+  height: 1038px;
+  background: #e6e3c4;
+  padding: 80px 0;
+}
+
+.collection .long_line1 {
+  width: 1110px;
+  height: 0px;
+  border: 1px solid #998431;
+  display: block;
+  margin: 0 auto;
+}
+
+.describe_plus_slider {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.describe_plus_slider .new_collection {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.describe_plus_slider .march {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 150%;
+  color: #282828;
+  margin-top: 30px;
+}
+
+.describe_plus_slider .small_line {
+  width: 160px;
+  height: 0px;
+  background: #282828;
+  border: 1px solid #282828;
+  margin-top: 30px;
+}
+
+.describe_plus_slider .lorem,
+.describe_plus_slider .lorem2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #282828;
+  margin-top: 30px;
+}
+
+.describe_plus_slider .years {
+  width: 445px;
+  border: 2px solid #e6e3c4;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.describe_plus_slider .years tr,
+td {
+  border: 1px solid #282828;
+  padding: 12px 25px;
+}
+
+.describe_plus_slider .years .year1980 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #282828;
+}
+
+.describe_plus_slider .years .colli {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  line-height: 150%;
+  color: #282828;
+}
+
+.describe_plus_slider .button3 {
+  width: 254px;
+  height: 50px;
+  background: #998431;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.describe_plus_slider .slider {
+  width: 540px;
+  height: 758px;
+}
+
+.collection .long_line2 {
+  width: 1110px;
+  height: 0px;
+  border: 1px solid #998431;
+  margin-top: 60px;
+  display: block;
+}
