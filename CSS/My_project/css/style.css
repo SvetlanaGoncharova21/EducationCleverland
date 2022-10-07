@@ -1,5 +1,4 @@
 .container {
-  position: relative;
   width: 1110px;
   margin: 0 auto;
 }
@@ -246,4 +245,124 @@ td {
   border: 1px solid #998431;
   margin-top: 60px;
   display: block;
+}
+
+.forms {
+  height: 767px;
+  background: #282828;
+  padding: 90px 0px;
+  position: relative;
+}
+
+.forms .form {
+  display: block;
+  justify-content: center;
+}
+
+.forms .form .form1 {
+  height: 538px;
+  border: 3px solid #c4c4c4;
+}
+
+.form .form1 .entry {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 10px 50px;
+}
+
+.form .form_line {
+  width: 118px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.form .form_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.form .anketa {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  column-gap: 30px;
+}
+
+.form .anketa .anketa_text {
+  width: 255px;
+  background: #282828;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.form .anketa2 .anketa_text2 {
+  width: 540px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  background: #282828;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 40px;
+}
+
+.form .button4 {
+  width: 541px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background: #282828;
+  display: block;
+  padding: 15px 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.forms .grape {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 50px;
+  top: 50px;
+}
+
+.forms .barrel {
+  position: absolute;
+  width: 260px;
+  height: 200px;
+  right: 50px;
+  top: 50px;
 }
