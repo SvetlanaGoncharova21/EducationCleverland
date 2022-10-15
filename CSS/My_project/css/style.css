@@ -41,6 +41,10 @@
   margin-top: 20px;
 }
 
+.header_nav .menu .table a {
+  color: white;
+}
+
 .header_nav .menu .table .table_text {
   font-family: "Montserrat";
   font-style: normal;
@@ -389,8 +393,8 @@ td {
 
 .footer .footer_line {
   width: 100%;
-  height: 0px;
-  border: 1px solid #ffffff;
+  height: 1px;
+  background-color: #ffffff;
 }
 
 .footer .footer_menu1 {
@@ -410,14 +414,18 @@ td {
   color: #ffffff;
 }
 
-.footer .footer_menu2 {
+.footer .footer_line2 {
   width: 100%;
-  height: 60px;
-  border-collapse: collapse;
-  border-collapse: collapse;
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  background-color: #ffffff;
   margin-top: 20px;
+}
+
+.footer .footer_menu2 {
+  display: flex;
+  justify-content: center;
+
+  column-gap: 50px;
 }
 
 .footer .footer_menu2 .menu_f2 {
@@ -429,20 +437,24 @@ td {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  border: 2px solid #ffffff;
-}
-
-.footer .footer_menu2 .f2 {
-  border-left: none;
+  border-right: 1px solid #ffffff;
+  padding: 20px 59px;
 }
 
 .footer .footer_menu2 .f4 {
+  border-left: 1px solid #ffffff;
   border-right: none;
 }
 
 .footer .footer_menu2 .soc {
   display: flex;
-  justify-content: center;
+  margin-top: 20px;
   column-gap: 20px;
   border: none;
+}
+
+.footer .footer_line3 {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
 }
