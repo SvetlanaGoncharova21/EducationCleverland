@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document2</title>
+  </head>
+  <style>
+    .container {
+      width: 600px;
+      display: grid;
+      color: white;
+      gap: 5px;
+      font-size: 40px;
+      grid-template-areas:
+        "header header menu"
+        "content sibebar sibebar"
+        "content nav footer";
+      grid-template-rows: 120px 70px 120px 60px 60px 60px;
+      grid-template-columns: 200px 200px 200px;
+    }
+    .header {
+      display: grid;
+      grid-area: header;
+      background: #7fffd4;
+      justify-content: center;
+      align-content: center;
+    }
+    .menu {
+      display: grid;
+      grid-area: menu;
+      background: #f1d44f;
+      justify-content: center;
+      align-content: center;
+    }
+    .content {
+      display: grid;
+      grid-area: content;
+      background: #00ffff;
+      justify-content: center;
+      align-content: center;
+    }
+    .sibebar {
+      display: grid;
+      grid-area: sibebar;
+      background: #f3a7d7;
+      justify-content: center;
+      align-content: center;
+    }
+    .nav {
+      display: grid;
+      grid-area: nav;
+      background: #13dddd;
+      justify-content: center;
+      align-content: center;
+    }
+    .footer {
+      display: grid;
+      grid-area: footer;
+      background: #be9113;
+      justify-content: center;
+      align-content: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="header">1</div>
+      <div class="menu">2</div>
+      <div class="content">3</div>
+      <div class="sibebar">4</div>
+      <div class="nav">5</div>
+      <div class="footer">6</div>
+    </div>
+  </body>
+</html>
