@@ -1,7 +1,7 @@
 "use strict";
 
-let a = 8,
-  b = 3;
+let a = prompt("Введите первое число", "");
+let b = prompt("Введите второе число", "");
 
 if (a > b) {
   alert(1);
