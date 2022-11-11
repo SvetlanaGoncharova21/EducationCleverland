@@ -1,7 +1,7 @@
 "use strict";
 
-for (let n = 2; n <= 20; n++) {
-  if (n % 2 == 0) {
-    alert(n);
-  }
+const n = +prompt("Введите число");
+for (let i = 2; i < n; i += 2) {
+  if (i % 5 == 0) continue;
+  alert(i);
 }
