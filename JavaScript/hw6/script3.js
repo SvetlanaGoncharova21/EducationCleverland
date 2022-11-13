@@ -1,10 +1,10 @@
 "use strict";
 
-let nameF = "Василий";
-function hello(nameF) {
-  alert("Привет, " + nameF);
-  if (nameF === underfined) {
-    alert = "Привет, гость";
-  }
+let nameFirst = "Василий";
+
+function hello() {
+  if (nameFirst !== "undefined") {
+    alert("Привет " + nameFirst);
+  } else alert("Привет, гость");
 }
-hello(nameF);
+hello();
