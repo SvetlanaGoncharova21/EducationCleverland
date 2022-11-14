@@ -1,9 +1,9 @@
 "use strict";
 
-let nameFirst = "Василий";
+let nameFirst = prompt("Введите имя");
 
 function hello() {
-  if (nameFirst !== "undefined") {
+  if (nameFirst) {
     alert("Привет " + nameFirst);
   } else alert("Привет, гость");
 }
