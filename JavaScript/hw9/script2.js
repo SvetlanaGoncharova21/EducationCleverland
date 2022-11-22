@@ -1,6 +1,6 @@
 "use strict";
 
-let salaries = {
+let salary = {
   Ivanov: 100,
   popov: 200,
   Smirnov: 300,

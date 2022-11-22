@@ -17,7 +17,7 @@ for (let key in person) {
 
 delete person.middleName;
 
-if (person[middleName] === true) {
+if (person.middleName) {
   alert(person.middleName);
 } else {
   alert("не существует");
@@ -36,3 +36,4 @@ let amountNum = () => {
   }
   return sum;
 };
+alert("количество свойств, которые являются числа: ${amountNum()}");
