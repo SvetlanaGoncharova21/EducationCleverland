@@ -6,7 +6,6 @@ const yellow = document.getElementsByClassName("yellow");
 const div = document.querySelectorAll("div");
 
 first.style.backgroundColor = "red";
-// document.getElementById("first").style.backgroundColor = "red";
 
 second.style.backgroundColor = "blue";
 

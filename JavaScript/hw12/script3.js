@@ -1,6 +1,6 @@
 "use strict";
 
-let list = document.querySelectorAll("li ol");
+let list = document.querySelectorAll("ul > li");
 
 list[0].style.backgroundColor = "blue";
 list[1].style.backgroundColor = "green";
