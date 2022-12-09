@@ -27,10 +27,8 @@ movieList.innerHTML = "";
 movieDB.movies.sort();
 
 movieDB.movies.forEach((film, index) => {
-  movieList.innerHTML += (
-    <li class="promo__interactive-item">
-      ${index + 1} ${film}
-      <div class="delete"></div>
-    </li>
-  );
+  movieList.innerHTML += `<li class="promo__interactive-item">
+  ${index + 1} ${film}
+  <div class="delete"></div>
+</li>`;
 });
